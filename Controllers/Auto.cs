@@ -9,6 +9,7 @@ public class AutoController : Controller
         return Ok("This is the index of the AutoController"); 
     }
     
+    
     public IActionResult Quote() 
     {
         return Ok("This is the auto quote"); 
